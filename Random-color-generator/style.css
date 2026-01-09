@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    padding:20px;
+    font-size: 20px;
+}
+.random-color-container{
+    display:flex;
+    gap:10px;
+}
+.hex-color-container, .rdb-color-container{
+    min-height: 100vh;
+    flex: 1;
+
+}
+.hex-button{
+    padding:12px 20px ;
+    font-weight:bold;
+    cursor:pointer ;
+    font-size:18px;
+    background-color:rgb(173, 176, 153);
+
+}
+.rgb-color-container{
+    display:flex;
+    flex-direction:coloumn;
+    gap:20px;
+}
+.hex-color-container{
+    background-color:aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.hex-color-value, .rgb-color-value{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.rgb-color-container{
+    background-color: rgb(138, 181, 141);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rgb-btn{
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(208, 48, 125);   
+    color: #fff;
+}
+.copy-btn{
+    padding:10px 18px ;
+    font-weight:bold;
+    cursor:pointer ;
+    font-size:12px;
+    background-color:rgb(202, 121, 136); 
+
+}
+.rgb-copy-btn{
+     padding:10px 18px ;
+    font-weight:bold;
+    cursor:pointer ;
+    font-size:12px;
+    background-color:rgb(202, 121, 136);
+}
+.button-rgb{
+min-height:100vh;
+flex: 1;
+gap:20px;
+justify-content:center;
+
+}
