@@ -22,12 +22,7 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.fa-regular.fa-star{
- font-size: 56px;
-  color: #cbd5e1;          
-  margin: 0 8px;
-  cursor: pointer;
-}
+
 .selected-rating-container{
     display: flex;
     gap: 10px;
@@ -39,3 +34,19 @@ body{
     font-weight: bold;
 }
 
+.fa-star:hover {
+    cursor: pointer;
+}
+
+.fa-regular.fa-star{
+ font-size: 56px;
+ color: #cbd5e1;
+ margin: 0 8px;
+ cursor: pointer;
+}
+.fa-solid.fa-star{
+ font-size: 56px;
+ color: rgb(243, 243, 86);
+ margin: 0 8px;
+ cursor: pointer;
+}
